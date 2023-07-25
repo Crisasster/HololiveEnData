@@ -48,6 +48,10 @@ namespace HoloEnglishData
             SQLiteCommand sqliteCommand;
             sqliteCommand = conn.CreateCommand();
             sqliteCommand.CommandText = "INSERT INTO Members(Name, Channel, Description) VALUES ('Mori Calliope', 'https://www.youtube.com/@MoriCalliope', 'Grim Reaper Idol of HoloEN! Love making music!!');";
+            sqliteCommand.CommandText = "INSERT INTO Members(Name, Channel, Description) VALUES ('Takanashi Kiara', 'https://www.youtube.com/@TakanashiKiara', 'An idol whose dream is to become a fast food shop owner. She is a phoenix NOT a chicken or turkey. Very important');";
+            sqliteCommand.CommandText = "INSERT INTO Members(Name, Channel, Description) VALUES ('Ninomae Inanis', 'https://www.youtube.com/@NinomaeInanis', 'She began her VTuber activities to deliver random sanity checks on humanity as an ordinary girl.');";
+            sqliteCommand.CommandText = "INSERT INTO Members(Name, Channel, Description) VALUES ('Watson Amelia', 'https://www.youtube.com/@WatsonAmelia', 'Weekend Streams ~ Detective. Gamer. Idol? Ame!');";
+            sqliteCommand.CommandText = "INSERT INTO Members(Name, Channel, Description) VALUES ('Gawr Gura', 'https://www.youtube.com/@GawrGura', 'Shark-girl Idol of Hololive EN !);";
             sqliteCommand.ExecuteNonQuery();
         }
 
