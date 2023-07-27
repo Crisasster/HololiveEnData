@@ -31,6 +31,7 @@ namespace HoloEnglishData
         static SQLiteConnection CreateConnection()
         {
             SQLiteConnection sqliteConn;
+            //your connection string here
             sqliteConn = new SQLiteConnection("Data Source=C:\\Users\\goper\\source\\repos\\HololiveQuery\\NewFolder1\\Databased\\HololiveQuery.db; Version = 3; New = True; Compress = True;");
             try
             {

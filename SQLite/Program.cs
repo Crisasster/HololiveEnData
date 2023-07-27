@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SQLite;
-using HoloEnglishData.Generic;
 
 namespace HoloEnglishData
 {
@@ -41,10 +40,10 @@ namespace HoloEnglishData
         static SQLiteConnection CreateConnection()
         {
             SQLiteConnection sqliteConn;
+            //your connection string here
             sqliteConn = new SQLiteConnection("Data Source=C:\\Users\\goper\\source\\repos\\HololiveQuery\\NewFolder1\\Databased\\HololiveQuery.db; Version = 3; New = True; Compress = True;");
             try
             {
-                Console.WriteLine("Connect to SQL Server");
                 sqliteConn.Open();
             }
             catch

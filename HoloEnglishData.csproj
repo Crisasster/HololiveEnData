@@ -84,7 +84,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Generic\Declaration.cs" />
     <Compile Include="SQLite\Council.cs" />
     <Compile Include="SQLite\Data.cs" />
     <Compile Include="SQLite\Program.cs" />
